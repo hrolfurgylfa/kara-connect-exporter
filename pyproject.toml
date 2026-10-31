@@ -1,0 +1,14 @@
+[project]
+name = "kara-connect-exporter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.15"
+dependencies = [
+    "pydantic>=2.14.2",
+    "requests>=2.34.2",
+]
+[tool.pyrefly]
+preset = "strict"
+project-includes = ["src"]
+python-platform = ["linux", "win32"]
